@@ -1,0 +1,20 @@
+Day1:
+- Setting up my cloud database, I'm using Atlas Mongodb. 
+For that, I created a cluster(Database clustering refers to the ability of several servers or instances to connect to a single database.).
+Then I created a database user authentification. Then I configured my ip addresss, then created my database and collection name, then I downloaded 
+MongoBD Compass to remotely interact with MongoDb.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+- Start building my backend in backend folder
+For that run the commands:
+npm init
+I install my dependencies:
+npm i express mongoose passport passport-jwt jsonwebtoken body-parser bcryptjs validator
+npm i -D nodemon
+
+I install some devdependencies tools:
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+I used mongoose to setup my connection to MongoDB
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
