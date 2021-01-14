@@ -13,14 +13,9 @@ const ProfileSchema = new Schema({
         required: true
     },
     location: {
-        type: String
-    },
-    date: {
-        type: Date,
-        default: Date.now
+        type: String,
+        required: true
     }
-
-
 });
 
 module.exports = Profile = mongoose.model('profile', ProfileSchema);
